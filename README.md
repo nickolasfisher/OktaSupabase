@@ -58,12 +58,12 @@ Navigate to [your supabase admin page](https://app.supabase.com/).  If you havne
 
 Under *Table Editor* click **Create a new table** and name it `Entries`.  Add the following columns to it.
 
-> id : int8 : Is Identity *note: supabase will add this automatically for you*
-> created_at : timestamptz : not null *note: supabase will add this automatically for you*
-> description : text : not null
-> date : timestamptz : not null
-> title : text : not null
-> isPublic : bool : not null
+> id : int8 : Is Identity *note: supabase will add this automatically for you*  
+> created_at : timestamptz : not null *note: supabase will add this automatically for you*  
+> description : text : not null  
+> date : timestamptz : not null  
+> title : text : not null  
+> isPublic : bool : not null  
 
 Populate some sample data in your name by using the **Insert Row** button.
 
