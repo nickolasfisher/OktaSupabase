@@ -85,9 +85,7 @@ export default {
     }
   },
   mounted() {
-    console.log(this.date)
     this.entry.date = this.date
-    console.log(this.entry)
   },
   methods: {
     save(e) {
