@@ -1,7 +1,4 @@
 <script setup>
-import Day from './Day.vue'
-import AddEntry from './AddEntry.vue'
-import EntryDetail from './EntryDetail.vue'
 import { supabase } from '../supabase'
 </script>
 
